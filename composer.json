@@ -1,0 +1,23 @@
+{
+    "name": "techart/db",
+    "description": "Работа с базой данных",
+    "version" : "3.0.2",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Techart",
+            "homepage": "http://web-techart.ru/"
+        }
+    ],
+    "autoload" : {
+        "psr-4": {
+            "Techart\\DB\\": "src/DB"
+        },
+        "classmap": ["src/DB.php"]
+    },
+    "require": {
+        "PHP": ">=5.5",
+        "illuminate/database": "^5.2",
+        "doctrine/dbal": "^2.5"
+    }
+}
